@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dds_konfigurator.MainController">
+   <children>
+      <Label layoutX="169.0" layoutY="14.0" text="About" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="110.0" layoutY="175.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="82.0" text="Version: " />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="110.0" layoutY="200.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="82.0" text="Datum:" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="110.0" layoutY="225.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="82.0" text="JRE Version:" />
+      <Label alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="110.0" layoutY="250.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="82.0" text="JavaFX Version:" />
+      <Label alignment="CENTER_RIGHT" layoutX="110.0" layoutY="150.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="82.0" text="Autoren:" />
+      <Label layoutX="240.0" layoutY="150.0" text="Hannes Krause und Tim Fischer" />
+      <Label fx:id="versionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="175.0" text="1.4.4" />
+      <Label fx:id="dateLabel" layoutX="240.0" layoutY="200.0" text="2021-12-06" />
+      <Label fx:id="jreLabel" layoutX="240.0" layoutY="225.0" text="17.0.1" />
+      <Label fx:id="jfxLabel" layoutX="240.0" layoutY="250.0" text="17.0.1" />
+      <Label layoutX="123.0" layoutY="67.0" prefHeight="59.0" prefWidth="242.0" text="Programm zur Steuerung eines &#10;DDS-Frequenzgenerator &#10;auf Arduino Basis" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

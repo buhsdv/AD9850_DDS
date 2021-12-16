@@ -1,0 +1,52 @@
+.root{
+    -fx-background-color: #585858;
+    -fx-font-size: 11pt;
+}
+
+.menu-bar {
+    -fx-background-color: #636363;
+    -fx-opacity: 0.75;
+}
+
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing{
+    -fx-background-color: linear-gradient(#86C1B9, #7CAFC2);
+}
+
+.context-menu {
+    -fx-background-color: #636363;
+    -fx-opacity: 0.75;
+}
+
+.menu-item{
+    -fx-background-color: #636363;
+}
+
+.menu-item:focused{
+    -fx-background-color: linear-gradient(#86C1B9, #7CAFC2);
+}
+
+.tab-header-background{
+    -fx-background-color: #585858;
+}
+
+.tab{
+    -fx-background-color: #909090;
+}
+
+.tab-pane{
+    -fx-font-size: 10.5pt;
+}
+
+.tab:selected{
+    -fx-background-color: linear-gradient(#86C1B9, #7CAFC2);
+}
+
+.label{
+    -fx-text-fill: #F8F8F8;
+}
+
+.button{
+    -fx-background-color: linear-gradient(#86C1B9, #7CAFC2);
+    -fx-background-radius: 4;
+}
+
